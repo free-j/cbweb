@@ -1,3 +1,25 @@
+/* line 143, ../sass/_bootstrap-variables.scss */
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+/* line 147, ../sass/_bootstrap-variables.scss */
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 164, ../sass/_bootstrap-variables.scss */
+h1, h2, h3, h4, h5 {
+  font-style: italic;
+}
+
+/* line 523, ../sass/_bootstrap-variables.scss */
+.navbar-nav {
+  font-weight: 600;
+}
+
 /*!
  * Bootstrap v4.0.0-alpha.5 (https://getbootstrap.com)
  * Copyright 2011-2016 The Bootstrap Authors
@@ -391,7 +413,7 @@ html {
 
 /* line 71, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_reboot.scss */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #373a3c;
@@ -6205,7 +6227,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6311,7 +6333,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
